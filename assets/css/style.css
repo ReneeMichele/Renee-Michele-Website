@@ -44,3 +44,10 @@ footer{border-top:1px solid #ffffff18;opacity:.85}
 .lightbox-body{background:#000; border-radius:16px; overflow:hidden; border:1px solid #ffffff22; box-shadow:0 20px 60px rgba(0,0,0,.6)}
 .lightbox-body iframe{width:min(92vw,1000px); aspect-ratio:16/9; display:block; border:0}
 .lightbox-close{position:absolute; right:6px; top:-42px; font-size:26px; background:#1b1b1b; color:#fff; border:1px solid #ffffff33; width:36px; height:36px; border-radius:999px; cursor:pointer}
+
+
+/* --- v8.6.1 About text tighter --- */
+.about-text{gap:10px;}
+.about-text p{line-height:1.35;margin:6px 0 8px;}
+/* Optional global tweak (commented): */
+/* html,body{line-height:1.45;} */
