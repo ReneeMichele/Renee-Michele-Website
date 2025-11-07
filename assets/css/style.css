@@ -76,3 +76,15 @@ label{display:block; font-size:.95rem; opacity:.9; margin:0 0 6px 2px}
 .btn:hover{transform:translateY(-1px); box-shadow:0 10px 22px rgba(193,160,111,.35)}
 .note{opacity:.86}
 @media (max-width:720px){#contact .form{grid-template-columns:1fr}}
+
+
+/* v8.7.4 Shop hover highlight */
+.album{transition:transform .2s ease, box-shadow .2s ease}
+.album:hover{transform:translateY(-2px); box-shadow:0 12px 30px rgba(0,0,0,.35)}
+.album .cover::after{content:''; position:absolute; inset:0; background:linear-gradient(to bottom, rgba(193,160,111,.0), rgba(193,160,111,.08)); opacity:0; transition:opacity .2s ease}
+.album:hover .cover::after{opacity:1}
+.album .cover img{transition:transform .25s ease, filter .25s ease}
+.album:hover .cover img{transform:scale(1.015); filter:brightness(1.03)}
+.album .actions a{transition:background .2s ease, border-color .2s ease, transform .2s ease, box-shadow .2s ease}
+.album:hover .actions a{transform:translateY(-1px)}
+

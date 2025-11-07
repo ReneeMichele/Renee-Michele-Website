@@ -1,0 +1,6 @@
+
+v8.7.4
+------
+• Shop: Hover-Highlight (sanfter Lift, dezentes Gold-Overlay, leichter Glow).
+• Shop: Lokalisierte Button-Texte (EN/DE) — Amazon: “Buy CD / MP3” / “Kaufe CD / MP3”,
+  Apple: “Apple Music” / “Auf Apple Music”.
