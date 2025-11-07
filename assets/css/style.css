@@ -60,10 +60,12 @@ footer{border-top:1px solid #ffffff18;opacity:.85}
 .accent{color:var(--accent)}
 #contact .form{display:grid;gap:12px;grid-template-columns:1fr 1fr}
 #contact .form .full{grid-column:1/-1}
-.input, .textarea{
+.input, .textarea, .checkbox{
   width:100%; background:#111; color:#fff; border:1px solid #ffffff22;
   border-radius:12px; padding:12px 14px; outline:none; transition:border-color .2s ease, box-shadow .2s ease;
 }
+.checkbox{display:flex;align-items:center;gap:10px;padding:10px 12px}
+.checkbox input{width:auto}
 .textarea{min-height:140px; resize:vertical}
 .input:focus, .textarea:focus{border-color:var(--accent); box-shadow:0 0 0 3px #c1a06f33}
 label{display:block; font-size:.95rem; opacity:.9; margin:0 0 6px 2px}
