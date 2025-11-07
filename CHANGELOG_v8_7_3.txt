@@ -1,0 +1,7 @@
+
+v8.7.3
+------
+• Language toggle fixed (only selected language visible).
+• Videos section with thumbnail grid + nocookie lightbox.
+• Shop: real Amazon + Apple links for all 7 albums.
+• Contact: small spacing polish.
