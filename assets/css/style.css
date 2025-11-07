@@ -12,6 +12,14 @@ nav .wrap{display:flex;gap:18px;align-items:center;justify-content:space-between
 nav .brand{font-weight:700;letter-spacing:.3px}
 nav .links a{margin-left:12px;text-decoration:none;opacity:.9}
 nav .links a:hover{opacity:1}
+.lang-toggle{display:flex;align-items:center;gap:8px}
+.lang-toggle button{
+  background:transparent;color:#fff;border:1px solid #ffffff33;border-radius:999px;
+  padding:6px 10px;cursor:pointer;opacity:.9;transition:background .2s ease,opacity .2s ease,transform .1s ease
+}
+.lang-toggle button[aria-pressed="true"]{background:#ffffff1a;opacity:1}
+.lang-toggle button:hover{opacity:1;transform:translateY(-1px)}
+.lang-toggle .sep{opacity:.6}
 .hero{position:relative;min-height:90vh;background:url('../images/hero.jpg') center/cover no-repeat}
 .hero::after{content:'';position:absolute;inset:0;background:linear-gradient(to top, rgba(0,0,0,.55), rgba(0,0,0,.18) 40%, rgba(0,0,0,0))}
 .section h2{font-size:1.8rem;letter-spacing:.2px;margin-bottom:16px}
@@ -29,7 +37,8 @@ nav .links a:hover{opacity:1}
 .album .actions a svg{width:16px;height:16px;display:inline-block}
 .album .avail{margin:6px 0 0;color:#b3b3b3;font-size:.9rem}
 .about-photo{display:block;margin:0 auto 22px auto;max-width:680px;width:100%;border-radius:16px;box-shadow:0 12px 36px rgba(0,0,0,.45);border:1px solid #ffffff14}
-.about-text{display:grid;gap:18px}
+.about-text{display:grid;gap:8px !important}
+.about-text p{line-height:1.32 !important;margin:4px 0 6px !important}
 .sep{height:1px;background:linear-gradient(90deg,#ffffff00,#ffffff22,#ffffff00);margin:14px 0}
 footer{border-top:1px solid #ffffff18;opacity:.85}
 .video-grid{display:grid; gap:18px; grid-template-columns:repeat(auto-fit,minmax(300px,1fr))}
@@ -44,10 +53,24 @@ footer{border-top:1px solid #ffffff18;opacity:.85}
 .lightbox-body{background:#000; border-radius:16px; overflow:hidden; border:1px solid #ffffff22; box-shadow:0 20px 60px rgba(0,0,0,.6)}
 .lightbox-body iframe{width:min(92vw,1000px); aspect-ratio:16/9; display:block; border:0}
 .lightbox-close{position:absolute; right:6px; top:-42px; font-size:26px; background:#1b1b1b; color:#fff; border:1px solid #ffffff33; width:36px; height:36px; border-radius:999px; cursor:pointer}
-
-
-/* --- v8.6.1 About text tighter --- */
-.about-text{gap:10px;}
-.about-text p{line-height:1.35;margin:6px 0 8px;}
-/* Optional global tweak (commented): */
-/* html,body{line-height:1.45;} */
+[data-lang]{display:none}
+:root[data-ui-lang="en"] [data-lang="en"]{display:initial}
+:root[data-ui-lang="de"] [data-lang="de"]{display:initial}
+:root{--accent:#c1a06f}
+.accent{color:var(--accent)}
+#contact .form{display:grid;gap:12px;grid-template-columns:1fr 1fr}
+#contact .form .full{grid-column:1/-1}
+.input, .textarea{
+  width:100%; background:#111; color:#fff; border:1px solid #ffffff22;
+  border-radius:12px; padding:12px 14px; outline:none; transition:border-color .2s ease, box-shadow .2s ease;
+}
+.textarea{min-height:140px; resize:vertical}
+.input:focus, .textarea:focus{border-color:var(--accent); box-shadow:0 0 0 3px #c1a06f33}
+label{display:block; font-size:.95rem; opacity:.9; margin:0 0 6px 2px}
+.btn{
+  background:var(--accent); color:#0d0d0d; border:0; padding:12px 18px; border-radius:12px; 
+  font-weight:700; cursor:pointer; transition:transform .15s ease, box-shadow .15s ease
+}
+.btn:hover{transform:translateY(-1px); box-shadow:0 10px 22px rgba(193,160,111,.35)}
+.note{opacity:.86}
+@media (max-width:720px){#contact .form{grid-template-columns:1fr}}
