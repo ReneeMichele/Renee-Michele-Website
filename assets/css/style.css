@@ -127,9 +127,14 @@ label{display:block;font-size:.95rem;opacity:.9;margin:0 0 6px 2px}
 
 
 
-/* v8.8.0 – Cinematic Gold Divider (static) */
-.hero + .section::before,
-.section + .section::before {
+
+
+/* v8.8.1 – Cinematic Gold Divider using :not(:first-of-type) */
+.section {
+  position: relative;
+}
+
+.section:not(:first-of-type)::before {
   content: '';
   position: absolute;
   left: 0;
