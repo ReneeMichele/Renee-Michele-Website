@@ -118,39 +118,26 @@ label{display:block;font-size:.95rem;opacity:.9;margin:0 0 6px 2px}
 
 
 /* v8.7.9 – Cinematic Gold Divider with subtle animation */
+
+
+
+
+/* activated when section comes into view */
+
+
+
+
+/* v8.8.0 – Cinematic Gold Divider (static) */
+.hero + .section::before,
 .section + .section::before {
   content: '';
   position: absolute;
   left: 0;
   right: 0;
-  top: -18px;
+  top: 0;
   height: 4px;
   background: linear-gradient(90deg, #00000000, #d9b67aee, #00000000);
-  opacity: 0;
-  transform-origin: center;
-  transform: scaleX(0.75);
-  pointer-events: none;
-  transition: transform 0.6s ease-out, opacity 0.6s ease-out;
-}
-
-.hero + .section::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: -18px;
-  height: 4px;
-  background: linear-gradient(90deg, #00000000, #d9b67acc, #00000000);
-  opacity: 0;
-  transform-origin: center;
-  transform: scaleX(0.75);
-  pointer-events: none;
-  transition: transform 0.6s ease-out, opacity 0.6s ease-out;
-}
-
-/* activated when section comes into view */
-.section.section-visible::before {
   opacity: 1;
-  transform: scaleX(1);
+  pointer-events: none;
 }
 

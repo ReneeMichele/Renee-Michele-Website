@@ -25,7 +25,7 @@
 
 <header class="hero"></header>
 
-<section  class="section"><div class="wrap">
+<section id="music" class="section"><div class="wrap">
   <h2><span data-lang="en">Music</span><span data-lang="de">Musik</span></h2>
   <div class="albums-grid">
 
@@ -130,7 +130,7 @@
   </div>
 </div></section>
 
-<section  class="section">
+<section id="videos" class="section">
   <div class="wrap">
     <h2><span data-lang="en">Videos</span><span data-lang="de">Videos</span></h2>
     <div class="videos-grid">
@@ -207,7 +207,7 @@
 })();
 </script>
 
-<section  class="section"><div class="wrap">
+<section id="shop" class="section"><div class="wrap">
   <h2><span data-lang="en">Shop</span><span data-lang="de">Shop</span></h2>
   <p class="small">
     <span data-lang="en">Buy CDs or downloads via your preferred store.</span>
@@ -323,7 +323,7 @@
   </div>
 </div></section>
 
-<section  class="section"><div class="wrap">
+<section id="about" class="section"><div class="wrap">
   <h2><span data-lang="en">About</span><span data-lang="de">Über</span></h2>
   <img class="about-photo" src="./assets/images/renee_about.jpg" alt="Renée Michele at the piano">
   <div class="about-text" data-lang="en">
@@ -339,7 +339,7 @@
   </div>
 </div></section>
 
-<section  class="section"><div class="wrap">
+<section id="contact" class="section"><div class="wrap">
   <h2><span data-lang="en">Contact</span><span data-lang="de">Kontakt</span></h2>
   <p class="note"><span data-lang="en">Booking & Press:</span><span data-lang="de">Booking & Presse:</span> <a class="accent" href="mailto:info@renee-michele.com">info@renee-michele.com</a></p>
 
@@ -447,25 +447,6 @@ form.addEventListener('submit', async (e) => {
     window.location.href = "mailto:info@renee-michele.com?subject=" + subject + "&body=" + body;
   }
 });
-</script>
-
-<script>
-(function(){
-  const sections = document.querySelectorAll('.section');
-  if (!('IntersectionObserver' in window)) {
-    sections.forEach(s => s.classList.add('section-visible'));
-    return;
-  }
-  const obs = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('section-visible');
-        obs.unobserve(entry.target);
-      }
-    });
-  }, { threshold: 0.2 });
-  sections.forEach(s => obs.observe(s));
-})();
 </script>
 
 </body></html>
