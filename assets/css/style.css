@@ -25,16 +25,8 @@ nav .links a:hover{opacity:1}
 .section{position:relative;padding:96px 0;scroll-margin-top:96px}
 .section h2{font-size:1.8rem;letter-spacing:.2px;margin-bottom:16px}
 /* v8.7.6 Cinematic gradient dividers */
-.section + .section::before{
-  content:'';position:absolute;left:0;right:0;top:0;height:1px;
-  background:linear-gradient(90deg,#ffffff00,#c1a06f33,#ffffff00);
-  opacity:.8;pointer-events:none
-}
-.hero + .section::before{
-  content:'';position:absolute;left:0;right:0;top:0;height:1px;
-  background:linear-gradient(90deg,#ffffff00,#c1a06f33,#ffffff00);
-  opacity:.6;pointer-events:none
-}
+
+
 @media(max-width:720px){
   .section{padding:80px 0;scroll-margin-top:80px}
 }
@@ -109,3 +101,30 @@ label{display:block;font-size:.95rem;opacity:.9;margin:0 0 6px 2px}
 #shop .album:hover .cover img{transform:scale(1.015);filter:brightness(1.03)}
 #shop .album .actions a{transition:background .2s ease,border-color .2s ease,transform .2s ease,box-shadow .2s ease}
 #shop .album:hover .actions a{transform:translateY(-1px)}
+
+
+/* Cinematic Harmony Divider – kräftiger, aber elegant */
+.section + .section::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #00000000, #c1a06fdd, #00000000);
+  opacity: 1;
+  pointer-events: none;
+}
+
+.hero + .section::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #00000000, #c1a06fdd, #00000000);
+  opacity: 0.95;
+  pointer-events: none;
+}
+
