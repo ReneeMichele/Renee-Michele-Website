@@ -1,170 +1,452 @@
-
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en" data-ui-lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Renee' Michele – Official Website</title>
-  <link rel="stylesheet" href="assets/css/style.css" />
-  <link rel="icon" type="image/png" href="assets/images/favicon.png" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Renée Michele – Pianist & Composer</title>
+<link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-  <header class="site-header">
-    <div class="logo">Renee' Michele</div>
-    <nav class="main-nav">
-      <a href="#hero">Home</a>
-      <a href="#music">Music</a>
-      <a href="#videos">Videos</a>
-      <a href="#shop">Shop</a>
-      <a href="#sheet-music">Sheet Music</a>
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
-    </nav>
-    <div class="lang-toggle">
-      <button data-lang="en" class="active">EN</button>
-      <button data-lang="de">DE</button>
+<nav><div class="wrap">
+  <div class="brand">Renée Michele</div>
+  <div class="links">
+    <a href="#music">Music</a>
+    <a href="#videos">Videos</a>
+    <a href="#shop">Shop</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <div class="lang-toggle" role="group" aria-label="Language switch">
+    <button type="button" data-set-lang="en" aria-pressed="true">EN</button>
+    <span class="sep">|</span>
+    <button type="button" data-set-lang="de" aria-pressed="false">DE</button>
+  </div>
+</div></nav>
+
+<header class="hero"></header>
+
+<section id="music" class="section"><div class="wrap">
+  <h2><span data-lang="en">Music</span><span data-lang="de">Musik</span></h2>
+  <div class="albums-grid">
+
+    <article class="album">
+      <figure class="cover">
+        <img src="./assets/images/albums/renee_michele_1500x1000.jpg" alt="Renée Michele – Renee' Michele">
+      </figure>
+      <div class="album-info">
+        <h3>Renee' Michele</h3>
+        <p class="meta">2002</p>
+        <div class="actions">
+          <a href="https://open.spotify.com/intl-de/album/53CsWA6yfCbeL958qhQOad" target="_blank" rel="noopener"><svg viewBox='0 0 24 24' aria-hidden='true' xmlns='http://www.w3.org/2000/svg'><path fill='currentColor' d='M12 1.5a10.5 10.5 0 1 0 0 21 10.5 10.5 0 0 0 0-21Zm4.9 14.7a.9.9 0 0 1-1.24.3c-3.4-2.08-7.68-2.55-12.72-1.38a.9.9 0 1 1-.4-1.75c5.42-1.26 10.12-.72 13.87 1.55.43.26.57.82.3 1.28Zm1.66-3.25a1.12 1.12 0 0 1-1.54.37c-3.88-2.36-9.79-3.05-14.36-1.65a1.12 1.12 0 1 1-.66-2.14c5.26-1.62 11.74-.86 16.2 1.83.53.32.7 1.01.36 1.59Zm.15-3.38c-4.46-2.64-11.83-2.88-16.07-1.55a1.34 1.34 0 1 1-.76-2.53c4.72-1.42 12.66-1.14 17.79 1.86.63.36.84 1.18.44 1.82Z'/></svg><span>Listen on Spotify</span></a>
+        </div>
+        <p class="avail"><span data-lang="en">Also on Apple Music & Amazon</span><span data-lang="de">Auch auf Apple Music & Amazon</span></p>
+      </div>
+    </article>
+
+    <article class="album">
+      <figure class="cover">
+        <img src="./assets/images/albums/bridges_1500x1000.jpg" alt="Renée Michele – Bridges">
+      </figure>
+      <div class="album-info">
+        <h3>Bridges</h3>
+        <p class="meta">2005</p>
+        <div class="actions">
+          <a href="https://open.spotify.com/intl-de/album/3lxoOf5zSy3BBqYdNtI8XA" target="_blank" rel="noopener"><svg viewBox='0 0 24 24' aria-hidden='true' xmlns='http://www.w3.org/2000/svg'><path fill='currentColor' d='M12 1.5a10.5 10.5 0 1 0 0 21 10.5 10.5 0 0 0 0-21Zm4.9 14.7a.9.9 0 0 1-1.24.3c-3.4-2.08-7.68-2.55-12.72-1.38a.9.9 0 1 1-.4-1.75c5.42-1.26 10.12-.72 13.87 1.55.43.26.57.82.3 1.28Zm1.66-3.25a1.12 1.12 0 0 1-1.54.37c-3.88-2.36-9.79-3.05-14.36-1.65a1.12 1.12 0 1 1-.66-2.14c5.26-1.62 11.74-.86 16.2 1.83.53.32.7 1.01.36 1.59Zm.15-3.38c-4.46-2.64-11.83-2.88-16.07-1.55a1.34 1.34 0 1 1-.76-2.53c4.72-1.42 12.66-1.14 17.79 1.86.63.36.84 1.18.44 1.82Z'/></svg><span>Listen on Spotify</span></a>
+        </div>
+        <p class="avail"><span data-lang="en">Also on Apple Music & Amazon</span><span data-lang="de">Auch auf Apple Music & Amazon</span></p>
+      </div>
+    </article>
+
+    <article class="album">
+      <figure class="cover">
+        <img src="./assets/images/albums/honor_and_grace_1500x1000.jpg" alt="Renée Michele – Honor and Grace">
+      </figure>
+      <div class="album-info">
+        <h3>Honor and Grace</h3>
+        <p class="meta">2008</p>
+        <div class="actions">
+          <a href="https://open.spotify.com/intl-de/album/1mSDWs29NbxKW5V4Vvfe1mC" target="_blank" rel="noopener"><svg viewBox='0 0 24 24' aria-hidden='true' xmlns='http://www.w3.org/2000/svg'><path fill='currentColor' d='M12 1.5a10.5 10.5 0 1 0 0 21 10.5 10.5 0 0 0 0-21Zm4.9 14.7a.9.9 0 0 1-1.24.3c-3.4-2.08-7.68-2.55-12.72-1.38a.9.9 0 1 1-.4-1.75c5.42-1.26 10.12-.72 13.87 1.55.43.26.57.82.3 1.28Zm1.66-3.25a1.12 1.12 0 0 1-1.54.37c-3.88-2.36-9.79-3.05-14.36-1.65a1.12 1.12 0 1 1-.66-2.14c5.26-1.62 11.74-.86 16.2 1.83.53.32.7 1.01.36 1.59Zm.15-3.38c-4.46-2.64-11.83-2.88-16.07-1.55a1.34 1.34 0 1 1-.76-2.53c4.72-1.42 12.66-1.14 17.79 1.86.63.36.84 1.18.44 1.82Z'/></svg><span>Listen on Spotify</span></a>
+        </div>
+        <p class="avail"><span data-lang="en">Also on Apple Music & Amazon</span><span data-lang="de">Auch auf Apple Music & Amazon</span></p>
+      </div>
+    </article>
+
+    <article class="album">
+      <figure class="cover">
+        <img src="./assets/images/albums/essence_1500x1000.jpg" alt="Renée Michele – Essence">
+      </figure>
+      <div class="album-info">
+        <h3>Essence</h3>
+        <p class="meta">2011</p>
+        <div class="actions">
+          <a href="https://open.spotify.com/intl-de/album/5Gr4nlEVXE9xQUojRvSv8H" target="_blank" rel="noopener"><svg viewBox='0 0 24 24' aria-hidden='true' xmlns='http://www.w3.org/2000/svg'><path fill='currentColor' d='M12 1.5a10.5 10.5 0 1 0 0 21 10.5 10.5 0 0 0 0-21Zm4.9 14.7a.9.9 0 0 1-1.24.3c-3.4-2.08-7.68-2.55-12.72-1.38a.9.9 0 1 1-.4-1.75c5.42-1.26 10.12-.72 13.87 1.55.43.26.57.82.3 1.28Zm1.66-3.25a1.12 1.12 0 0 1-1.54.37c-3.88-2.36-9.79-3.05-14.36-1.65a1.12 1.12 0 1 1-.66-2.14c5.26-1.62 11.74-.86 16.2 1.83.53.32.7 1.01.36 1.59Zm.15-3.38c-4.46-2.64-11.83-2.88-16.07-1.55a1.34 1.34 0 1 1-.76-2.53c4.72-1.42 12.66-1.14 17.79 1.86.63.36.84 1.18.44 1.82Z'/></svg><span>Listen on Spotify</span></a>
+        </div>
+        <p class="avail"><span data-lang="en">Also on Apple Music & Amazon</span><span data-lang="de">Auch auf Apple Music & Amazon</span></p>
+      </div>
+    </article>
+
+    <article class="album">
+      <figure class="cover">
+        <img src="./assets/images/albums/seasons_of_the_heart_1500x1000.jpg" alt="Renée Michele – Seasons of the Heart">
+      </figure>
+      <div class="album-info">
+        <h3>Seasons of the Heart</h3>
+        <p class="meta">2014</p>
+        <div class="actions">
+          <a href="https://open.spotify.com/intl-de/artist/40vla2l7UctY7tHd9d2nNo" target="_blank" rel="noopener"><svg viewBox='0 0 24 24' aria-hidden='true' xmlns='http://www.w3.org/2000/svg'><path fill='currentColor' d='M12 1.5a10.5 10.5 0 1 0 0 21 10.5 10.5 0 0 0 0-21Zm4.9 14.7a.9.9 0 0 1-1.24.3c-3.4-2.08-7.68-2.55-12.72-1.38a.9.9 0 1 1-.4-1.75c5.42-1.26 10.12-.72 13.87 1.55.43.26.57.82.3 1.28Zm1.66-3.25a1.12 1.12 0 0 1-1.54.37c-3.88-2.36-9.79-3.05-14.36-1.65a1.12 1.12 0 1 1-.66-2.14c5.26-1.62 11.74-.86 16.2 1.83.53.32.7 1.01.36 1.59Zm.15-3.38c-4.46-2.64-11.83-2.88-16.07-1.55a1.34 1.34 0 1 1-.76-2.53c4.72-1.42 12.66-1.14 17.79 1.86.63.36.84 1.18.44 1.82Z'/></svg><span>Listen on Spotify</span></a>
+        </div>
+        <p class="avail"><span data-lang="en">Also on Apple Music & Amazon</span><span data-lang="de">Auch auf Apple Music & Amazon</span></p>
+      </div>
+    </article>
+
+    <article class="album">
+      <figure class="cover">
+        <img src="./assets/images/albums/the_space_within_1500x1000.jpg" alt="Renée Michele – The Space Within">
+      </figure>
+      <div class="album-info">
+        <h3>The Space Within</h3>
+        <p class="meta">2019</p>
+        <div class="actions">
+          <a href="https://open.spotify.com/intl-de/album/1GvSoLLEl5HG3y4VvxfHz9" target="_blank" rel="noopener"><svg viewBox='0 0 24 24' aria-hidden='true' xmlns='http://www.w3.org/2000/svg'><path fill='currentColor' d='M12 1.5a10.5 10.5 0 1 0 0 21 10.5 10.5 0 0 0 0-21Zm4.9 14.7a.9.9 0 0 1-1.24.3c-3.4-2.08-7.68-2.55-12.72-1.38a.9.9 0 1 1-.4-1.75c5.42-1.26 10.12-.72 13.87 1.55.43.26.57.82.3 1.28Zm1.66-3.25a1.12 1.12 0 0 1-1.54.37c-3.88-2.36-9.79-3.05-14.36-1.65a1.12 1.12 0 1 1-.66-2.14c5.26-1.62 11.74-.86 16.2 1.83.53.32.7 1.01.36 1.59Zm.15-3.38c-4.46-2.64-11.83-2.88-16.07-1.55a1.34 1.34 0 1 1-.76-2.53c4.72-1.42 12.66-1.14 17.79 1.86.63.36.84 1.18.44 1.82Z'/></svg><span>Listen on Spotify</span></a>
+        </div>
+        <p class="avail"><span data-lang="en">Also on Apple Music & Amazon</span><span data-lang="de">Auch auf Apple Music & Amazon</span></p>
+      </div>
+    </article>
+
+    <article class="album">
+      <figure class="cover">
+        <img src="./assets/images/albums/reunion_1500x1000.jpg" alt="Renée Michele – Reunion">
+      </figure>
+      <div class="album-info">
+        <h3>Reunion</h3>
+        <p class="meta">2024</p>
+        <div class="actions">
+          <a href="https://open.spotify.com/intl-de/album/50v3aQ2qQEd6MlgCVgB8LI" target="_blank" rel="noopener"><svg viewBox='0 0 24 24' aria-hidden='true' xmlns='http://www.w3.org/2000/svg'><path fill='currentColor' d='M12 1.5a10.5 10.5 0 1 0 0 21 10.5 10.5 0 0 0 0-21Zm4.9 14.7a.9.9 0 0 1-1.24.3c-3.4-2.08-7.68-2.55-12.72-1.38a.9.9 0 1 1-.4-1.75c5.42-1.26 10.12-.72 13.87 1.55.43.26.57.82.3 1.28Zm1.66-3.25a1.12 1.12 0 0 1-1.54.37c-3.88-2.36-9.79-3.05-14.36-1.65a1.12 1.12 0 1 1-.66-2.14c5.26-1.62 11.74-.86 16.2 1.83.53.32.7 1.01.36 1.59Zm.15-3.38c-4.46-2.64-11.83-2.88-16.07-1.55a1.34 1.34 0 1 1-.76-2.53c4.72-1.42 12.66-1.14 17.79 1.86.63.36.84 1.18.44 1.82Z'/></svg><span>Listen on Spotify</span></a>
+        </div>
+        <p class="avail"><span data-lang="en">Also on Apple Music & Amazon</span><span data-lang="de">Auch auf Apple Music & Amazon</span></p>
+      </div>
+    </article>
+
+  </div>
+</div></section>
+
+<section id="videos" class="section">
+  <div class="wrap">
+    <h2><span data-lang="en">Videos</span><span data-lang="de">Videos</span></h2>
+    <div class="videos-grid">
+
+      <a class="video-card" href="#" data-yt="KcTRwSuj2gA" aria-label="Play video">
+        <img src="https://img.youtube.com/vi/KcTRwSuj2gA/hqdefault.jpg" alt="YouTube thumbnail" loading="lazy">
+        <span class="play-badge">▶</span>
+      </a>
+
+      <a class="video-card" href="#" data-yt="59AcOHMxm8E" aria-label="Play video">
+        <img src="https://img.youtube.com/vi/59AcOHMxm8E/hqdefault.jpg" alt="YouTube thumbnail" loading="lazy">
+        <span class="play-badge">▶</span>
+      </a>
+
+      <a class="video-card" href="#" data-yt="C2FKbrUI-Us" aria-label="Play video">
+        <img src="https://img.youtube.com/vi/C2FKbrUI-Us/hqdefault.jpg" alt="YouTube thumbnail" loading="lazy">
+        <span class="play-badge">▶</span>
+      </a>
+
+      <a class="video-card" href="#" data-yt="XihFn3PDrBo" aria-label="Play video">
+        <img src="https://img.youtube.com/vi/XihFn3PDrBo/hqdefault.jpg" alt="YouTube thumbnail" loading="lazy">
+        <span class="play-badge">▶</span>
+      </a>
+
+      <a class="video-card" href="#" data-yt="iBqqlmFfN4M" aria-label="Play video">
+        <img src="https://img.youtube.com/vi/iBqqlmFfN4M/hqdefault.jpg" alt="YouTube thumbnail" loading="lazy">
+        <span class="play-badge">▶</span>
+      </a>
+
+      <a class="video-card" href="#" data-yt="a0o01hbXQ08" aria-label="Play video">
+        <img src="https://img.youtube.com/vi/a0o01hbXQ08/hqdefault.jpg" alt="YouTube thumbnail" loading="lazy">
+        <span class="play-badge">▶</span>
+      </a>
+
+      <a class="video-card" href="#" data-yt="lQBUkPChfTM" aria-label="Play video">
+        <img src="https://img.youtube.com/vi/lQBUkPChfTM/hqdefault.jpg" alt="YouTube thumbnail" loading="lazy">
+        <span class="play-badge">▶</span>
+      </a>
+
+      <a class="video-card" href="#" data-yt="6R1vzmv3h1M" aria-label="Play video">
+        <img src="https://img.youtube.com/vi/6R1vzmv3h1M/hqdefault.jpg" alt="YouTube thumbnail" loading="lazy">
+        <span class="play-badge">▶</span>
+      </a>
+
+      <a class="video-card" href="#" data-yt="JjXVGgNsiNQ" aria-label="Play video">
+        <img src="https://img.youtube.com/vi/JjXVGgNsiNQ/hqdefault.jpg" alt="YouTube thumbnail" loading="lazy">
+        <span class="play-badge">▶</span>
+      </a>
+
     </div>
-  </header>
+  </div>
+</section>
 
-  <main>
-    <section id="hero" class="section hero">
-      <div class="hero-image-overlay"></div>
-      <div class="hero-content lang lang-en">
-        <h1>Cinematic Piano by Renee' Michele</h1>
-        <p>Atmospheric piano music for the heart and imagination.</p>
-      </div>
-      <div class="hero-content lang lang-de">
-        <h1>Cinematic Piano von Renee' Michele</h1>
-        <p>Atmosphärische Klaviermusik für Herz und Fantasie.</p>
-      </div>
-    </section>
+<div class="lightbox" id="yt-lightbox" hidden>
+  <div class="lightbox-backdrop" data-close></div>
+  <div class="lightbox-dialog" role="dialog" aria-modal="true" aria-label="Video player">
+    <button class="lightbox-close" type="button" data-close aria-label="Close">×</button>
+    <div class="lightbox-body"></div>
+  </div>
+</div>
 
-    <section id="music" class="section">
-      <h2 class="section-title lang lang-en">Music</h2>
-      <h2 class="section-title lang lang-de">Musik</h2>
-      <p class="lang lang-en">Discover Renee' Michele's albums on major streaming platforms.</p>
-      <p class="lang lang-de">Entdecken Sie die Alben von Renee' Michele auf allen großen Streaming-Plattformen.</p>
-      <!-- Album grid placeholder -->
-      <div class="album-grid">
-        <div class="album-card">
-          <div class="album-cover placeholder">Album Cover</div>
-          <div class="album-info">
-            <h3>Reunion (2024)</h3>
-            <a class="btn" href="#" target="_blank">Listen on Spotify</a>
-          </div>
+<script>
+(function(){ 
+  const lb = document.getElementById('yt-lightbox');
+  const body = document.querySelector('.lightbox-body');
+  function openLightbox(id){
+    const src = "https://www.youtube-nocookie.com/embed/" + id + "?autoplay=1&rel=0&modestbranding=1";
+    body.innerHTML = '<iframe src="'+src+'" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen frameborder="0"></iframe>';
+    lb.hidden = false; document.body.style.overflow = 'hidden';
+  }
+  function closeLightbox(){ body.innerHTML = ''; lb.hidden = true; document.body.style.overflow = ''; }
+  document.addEventListener('click', (e)=>{ const a = e.target.closest('a.video-card'); if(a&&a.dataset.yt){ e.preventDefault(); openLightbox(a.dataset.yt); } if(e.target.matches('[data-close]')){ closeLightbox(); } });
+  document.addEventListener('keydown', (e)=>{ if(e.key==='Escape' && !lb.hidden) closeLightbox(); });
+})();
+</script>
+
+<section id="shop" class="section"><div class="wrap">
+  <h2><span data-lang="en">Shop</span><span data-lang="de">Shop</span></h2>
+  <p class="small">
+    <span data-lang="en">Buy CDs or downloads via your preferred store.</span>
+    <span data-lang="de">Kaufe CDs oder Downloads über deinen bevorzugten Shop.</span>
+  </p>
+  <div class="albums-grid">
+
+    <article class="album">
+      <figure class="cover">
+        <img src="./assets/images/albums/renee_michele_1500x1000.jpg" alt="Renée Michele – Renee' Michele">
+      </figure>
+      <div class="album-info">
+        <h3>Renee' Michele</h3>
+        <p class="meta">2002</p>
+        <div class="actions">
+          <a href="https://www.amazon.com/Renee-Michele/dp/B0012AUHSW" target="_blank" rel="noopener"><span data-lang="en">Buy CD / MP3</span><span data-lang="de">Kaufe CD / MP3</span></a>
+          <a href="https://music.apple.com/us/album/renee-michele/6295260" target="_blank" rel="noopener"><span data-lang="en">Apple Music</span><span data-lang="de">Auf Apple Music</span></a>
         </div>
+        <p class="avail"><span data-lang="en">Also available on Spotify</span><span data-lang="de">Auch auf Spotify verfügbar</span></p>
       </div>
-    </section>
+    </article>
 
-    <section id="videos" class="section">
-      <h2 class="section-title lang lang-en">Videos</h2>
-      <h2 class="section-title lang lang-de">Videos</h2>
-      <p class="lang lang-en">Selected performances and official videos from Renee' Michele.</p>
-      <p class="lang lang-de">Ausgewählte Performances und offizielle Videos von Renee' Michele.</p>
-      <div class="video-grid">
-        <div class="video-card">
-          <div class="video-embed">
-            <!-- Replace VIDEO_ID with real YouTube ID -->
-            <iframe src="https://www.youtube.com/embed/VIDEO_ID" title="YouTube video" frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen></iframe>
-          </div>
-          <p class="video-title">Sample Video Title</p>
+    <article class="album">
+      <figure class="cover">
+        <img src="./assets/images/albums/bridges_1500x1000.jpg" alt="Renée Michele – Bridges">
+      </figure>
+      <div class="album-info">
+        <h3>Bridges</h3>
+        <p class="meta">2005</p>
+        <div class="actions">
+          <a href="https://www.amazon.com/Bridges-Renee-Michele/dp/B00127MPQW" target="_blank" rel="noopener"><span data-lang="en">Buy CD / MP3</span><span data-lang="de">Kaufe CD / MP3</span></a>
+          <a href="https://music.apple.com/us/album/bridges/58085930" target="_blank" rel="noopener"><span data-lang="en">Apple Music</span><span data-lang="de">Auf Apple Music</span></a>
         </div>
+        <p class="avail"><span data-lang="en">Also available on Spotify</span><span data-lang="de">Auch auf Spotify verfügbar</span></p>
       </div>
-    </section>
+    </article>
 
-    <section id="shop" class="section">
-      <h2 class="section-title lang lang-en">Shop</h2>
-      <h2 class="section-title lang lang-de">Shop</h2>
-      <p class="lang lang-en">Physical CDs and digital albums available via external stores.</p>
-      <p class="lang lang-de">Physische CDs und digitale Alben, erhältlich über externe Shops.</p>
-      <div class="shop-grid">
-        <div class="shop-card">
-          <h3>Reunion (CD)</h3>
-          <a class="btn" href="#" target="_blank">Buy on Amazon</a>
+    <article class="album">
+      <figure class="cover">
+        <img src="./assets/images/albums/honor_and_grace_1500x1000.jpg" alt="Renée Michele – Honor and Grace">
+      </figure>
+      <div class="album-info">
+        <h3>Honor and Grace</h3>
+        <p class="meta">2008</p>
+        <div class="actions">
+          <a href="https://www.amazon.com/Honor-Grace-Renee-Michele/dp/B0019J2C16" target="_blank" rel="noopener"><span data-lang="en">Buy CD / MP3</span><span data-lang="de">Kaufe CD / MP3</span></a>
+          <a href="https://music.apple.com/us/album/honor-and-grace/278047241" target="_blank" rel="noopener"><span data-lang="en">Apple Music</span><span data-lang="de">Auf Apple Music</span></a>
         </div>
+        <p class="avail"><span data-lang="en">Also available on Spotify</span><span data-lang="de">Auch auf Spotify verfügbar</span></p>
       </div>
-    </section>
+    </article>
 
-    <section id="sheet-music" class="section">
-      <h2 class="section-title lang lang-en">Sheet Music</h2>
-      <h2 class="section-title lang lang-de">Noten</h2>
-      <p class="lang lang-en">
-        Explore and purchase official sheet music from Renee' Michele’s albums — available exclusively on Payhip.
-      </p>
-      <p class="lang lang-de">
-        Entdecken Sie die offiziellen Noten von Renee' Michele – exklusiv erhältlich bei Payhip.
-      </p>
-      <div class="sheet-hero">
-        <div class="sheet-placeholder">Sheet Music Hero Image</div>
+    <article class="album">
+      <figure class="cover">
+        <img src="./assets/images/albums/essence_1500x1000.jpg" alt="Renée Michele – Essence">
+      </figure>
+      <div class="album-info">
+        <h3>Essence</h3>
+        <p class="meta">2011</p>
+        <div class="actions">
+          <a href="https://www.amazon.co.uk/Essence-Renee-Michele/dp/B005CHZX08" target="_blank" rel="noopener"><span data-lang="en">Buy CD / MP3</span><span data-lang="de">Kaufe CD / MP3</span></a>
+          <a href="https://music.apple.com/us/album/essence/450013891" target="_blank" rel="noopener"><span data-lang="en">Apple Music</span><span data-lang="de">Auf Apple Music</span></a>
+        </div>
+        <p class="avail"><span data-lang="en">Also available on Spotify</span><span data-lang="de">Auch auf Spotify verfügbar</span></p>
       </div>
-      <div class="album-grid">
-        <div class="album-card">
-          <div class="album-cover placeholder">Reunion</div>
-          <div class="album-info">
-            <h3>Reunion – Sheet Music</h3>
-            <a class="btn" href="https://payhip.com/ReneeMicheleSheetMusic" target="_blank">
-              <span class="lang lang-en">Buy Sheet Music</span>
-              <span class="lang lang-de">Noten kaufen</span>
-            </a>
-          </div>
+    </article>
+
+    <article class="album">
+      <figure class="cover">
+        <img src="./assets/images/albums/seasons_of_the_heart_1500x1000.jpg" alt="Renée Michele – Seasons of the Heart">
+      </figure>
+      <div class="album-info">
+        <h3>Seasons of the Heart</h3>
+        <p class="meta">2014</p>
+        <div class="actions">
+          <a href="https://music.amazon.com/albums/B00RIRKLAC" target="_blank" rel="noopener"><span data-lang="en">Buy CD / MP3</span><span data-lang="de">Kaufe CD / MP3</span></a>
+          <a href="https://music.apple.com/us/album/seasons-of-the-heart/954754353" target="_blank" rel="noopener"><span data-lang="en">Apple Music</span><span data-lang="de">Auf Apple Music</span></a>
         </div>
+        <p class="avail"><span data-lang="en">Also available on Spotify</span><span data-lang="de">Auch auf Spotify verfügbar</span></p>
       </div>
-    </section>
+    </article>
 
-    <section id="about" class="section">
-      <h2 class="section-title lang lang-en">About</h2>
-      <h2 class="section-title lang lang-de">Über</h2>
-      <p class="lang lang-en">
-        Renee' Michele is a pianist and composer known for her cinematic, emotional piano works. She has collaborated
-        with artists like Will Ackerman, Michael Hoppe and Thomas Lehmann.
-      </p>
-      <p class="lang lang-de">
-        Renee' Michele ist Pianistin und Komponistin, bekannt für ihre cineastischen, emotionalen Klavierwerke.
-        Sie arbeitete unter anderem mit Will Ackerman, Michael Hoppe und Thomas Lehmann zusammen.
-      </p>
-    </section>
-
-    <section id="contact" class="section">
-      <h2 class="section-title lang lang-en">Contact</h2>
-      <h2 class="section-title lang lang-de">Kontakt</h2>
-      <p class="lang lang-en">
-        For booking, licensing and general inquiries, please use the form below or send an email to
-        <a href="mailto:info@renee-michele.com">info@renee-michele.com</a>.
-      </p>
-      <p class="lang lang-de">
-        Für Booking, Lizenzen und allgemeine Anfragen nutzen Sie bitte das Formular oder schreiben Sie an
-        <a href="mailto:info@renee-michele.com">info@renee-michele.com</a>.
-      </p>
-      <form class="contact-form" action="mailto:info@renee-michele.com" method="post" enctype="text/plain">
-        <div class="form-row">
-          <label class="lang lang-en">Name</label>
-          <label class="lang lang-de">Name</label>
-          <input type="text" name="name" required>
+    <article class="album">
+      <figure class="cover">
+        <img src="./assets/images/albums/the_space_within_1500x1000.jpg" alt="Renée Michele – The Space Within">
+      </figure>
+      <div class="album-info">
+        <h3>The Space Within</h3>
+        <p class="meta">2019</p>
+        <div class="actions">
+          <a href="https://www.amazon.com/-/zh_TW/Renee-Michele/dp/B07M66CCSS" target="_blank" rel="noopener"><span data-lang="en">Buy CD / MP3</span><span data-lang="de">Kaufe CD / MP3</span></a>
+          <a href="https://music.apple.com/us/album/the-space-within/1447998284" target="_blank" rel="noopener"><span data-lang="en">Apple Music</span><span data-lang="de">Auf Apple Music</span></a>
         </div>
-        <div class="form-row">
-          <label class="lang lang-en">Email</label>
-          <label class="lang lang-de">E-Mail</label>
-          <input type="email" name="email" required>
-        </div>
-        <div class="form-row">
-          <label class="lang lang-en">Message</label>
-          <label class="lang lang-de">Nachricht</label>
-          <textarea name="message" rows="5" required></textarea>
-        </div>
-        <button type="submit" class="btn">
-          <span class="lang lang-en">Send</span>
-          <span class="lang lang-de">Senden</span>
-        </button>
-      </form>
-    </section>
-  </main>
+        <p class="avail"><span data-lang="en">Also available on Spotify</span><span data-lang="de">Auch auf Spotify verfügbar</span></p>
+      </div>
+    </article>
 
-  <footer class="site-footer">
-    <p>© Renee' Michele 2025 — Official Website<br>Designed by Thomas Lehmann</p>
-  </footer>
+    <article class="album">
+      <figure class="cover">
+        <img src="./assets/images/albums/reunion_1500x1000.jpg" alt="Renée Michele – Reunion">
+      </figure>
+      <div class="album-info">
+        <h3>Reunion</h3>
+        <p class="meta">2024</p>
+        <div class="actions">
+          <a href="https://music.amazon.com/albums/B0DL9XL6FR" target="_blank" rel="noopener"><span data-lang="en">Buy CD / MP3</span><span data-lang="de">Kaufe CD / MP3</span></a>
+          <a href="https://music.apple.com/us/album/reunion/1778596965" target="_blank" rel="noopener"><span data-lang="en">Apple Music</span><span data-lang="de">Auf Apple Music</span></a>
+        </div>
+        <p class="avail"><span data-lang="en">Also available on Spotify</span><span data-lang="de">Auch auf Spotify verfügbar</span></p>
+      </div>
+    </article>
 
-  <script src="assets/js/script.js"></script>
-</body>
-</html>
+  </div>
+</div></section>
+
+<section id="about" class="section"><div class="wrap">
+  <h2><span data-lang="en">About</span><span data-lang="de">Über</span></h2>
+  <img class="about-photo" src="./assets/images/renee_about.jpg" alt="Renée Michele at the piano">
+  <div class="about-text" data-lang="en">
+    <p>Renée Michele is a pianist and composer from Oregon whose music reflects beauty, grace, and emotional depth. Her compositions combine classical elegance with cinematic warmth — inviting listeners into a space of reflection and peace.</p>
+    <p>Over seven albums, Renée has created a body of work that resonates worldwide, with features on Pandora, Apple Music, SiriusXM, Soundscapes, and Enlightened Piano Radio.</p>
+    <p>She is the recipient of three <strong>Global Music Awards</strong> and collaborates with <strong>Will Ackerman</strong>, <strong>Michael Hoppe</strong>, and <strong>Thomas Lehmann</strong>.</p>
+  </div>
+  <div class="sep"></div>
+  <div class="about-text" data-lang="de">
+    <p>Renée Michele ist Pianistin und Komponistin aus Oregon. Ihre Musik vereint Schönheit, Anmut und emotionale Tiefe mit filmischer Wärme und lädt zur inneren Ruhe ein.</p>
+    <p>Mit sieben Alben erreicht sie Hörer weltweit – u. a. auf Pandora, Apple Music, SiriusXM, Soundscapes und Enlightened Piano Radio.</p>
+    <p>Sie erhielt drei <strong>Global Music Awards</strong> und arbeitet mit <strong>Will Ackerman</strong>, <strong>Michael Hoppe</strong> und <strong>Thomas Lehmann</strong> zusammen.</p>
+  </div>
+</div></section>
+
+<section id="contact" class="section"><div class="wrap">
+  <h2><span data-lang="en">Contact</span><span data-lang="de">Kontakt</span></h2>
+  <p class="note"><span data-lang="en">Booking & Press:</span><span data-lang="de">Booking & Presse:</span> <a class="accent" href="mailto:info@renee-michele.com">info@renee-michele.com</a></p>
+
+  <form id="contact-form" class="form" method="POST" novalidate>
+    <div style="position:absolute;left:-5000px;top:auto;width:1px;height:1px;overflow:hidden;">
+      <label>Leave this field empty</label>
+      <input type="text" name="website" tabindex="-1" autocomplete="off">
+    </div>
+
+    <div>
+      <label for="name"><span data-lang="en">Name</span><span data-lang="de">Name</span></label>
+      <input class="input" id="name" name="name" type="text" placeholder="Your name" required>
+    </div>
+    <div>
+      <label for="email"><span data-lang="en">Email</span><span data-lang="de">E-Mail</span></label>
+      <input class="input" id="email" name="email" type="email" placeholder="you@example.com" required>
+    </div>
+    <div class="full">
+      <label for="message"><span data-lang="en">Message</span><span data-lang="de">Nachricht</span></label>
+      <textarea class="textarea" id="message" name="message" placeholder="How can we help?" required></textarea>
+    </div>
+
+    <div class="full checkbox" style="border:1px solid #ffffff22;">
+      <input id="consent" name="consent" type="checkbox" required>
+      <label for="consent" style="margin:0">
+        <span data-lang="en">I agree to be contacted via email.</span>
+        <span data-lang="de">Ich stimme zu, per E‑Mail kontaktiert zu werden.</span>
+      </label>
+    </div>
+
+    <div class="full checkbox" style="border:1px solid #ffffff22;">
+      <input id="copyme" name="copyme" type="checkbox">
+      <label for="copyme" style="margin:0">
+        <span data-lang="en">Send me a copy of this message.</span>
+        <span data-lang="de">Kopie dieser Nachricht an mich senden.</span>
+      </label>
+    </div>
+
+    <div class="full">
+      <button class="btn" type="submit">
+        <span data-lang="en">Send message</span><span data-lang="de">Nachricht senden</span>
+      </button>
+      <span id="form-status" class="note" style="margin-left:12px"></span>
+    </div>
+  </form>
+</div></section>
+
+<footer><div class="wrap small">© Renée Michele · Website Design by Thomas Lehmann – Cinematic Harmony Edition</div></footer>
+
+<script>
+(function(){
+  const root = document.documentElement;
+  function applyLang(lang){
+    root.setAttribute('data-ui-lang', lang);
+    localStorage.setItem('ui_lang', lang);
+    document.querySelectorAll('[data-set-lang]').forEach(btn=>{
+      btn.setAttribute('aria-pressed', btn.getAttribute('data-set-lang')===lang ? 'true':'false');
+    });
+  }
+  const stored = localStorage.getItem('ui_lang');
+  const preferred = stored || (navigator.language||'en').slice(0,2);
+  applyLang(preferred === 'de' ? 'de' : 'en');
+  document.addEventListener('click', (e)=>{
+    const btn = e.target.closest('[data-set-lang]');
+    if(btn){ e.preventDefault(); applyLang(btn.getAttribute('data-set-lang')); }
+  });
+})();
+
+const FORMSPREE_ENDPOINT = "";
+const form = document.getElementById('contact-form');
+const statusEl = document.getElementById('form-status');
+function t(key){
+  const de = document.documentElement.getAttribute('data-ui-lang')==='de';
+  const map = {
+    "sent_en":"Thank you! Your message was sent.",
+    "sent_de":"Danke! Ihre Nachricht wurde gesendet.",
+    "fail_en":"Send failed. Please email us directly.",
+    "fail_de":"Senden fehlgeschlagen. Bitte schreiben Sie uns direkt eine E‑Mail.",
+    "net_en":"Network error. Please email us directly.",
+    "net_de":"Netzwerkfehler. Bitte schreiben Sie uns direkt eine E‑Mail.",
+    "consent_en":"Please accept the consent to be contacted.",
+    "consent_de":"Bitte stimmen Sie der Kontaktaufnahme zu."
+  };
+  return map[key + (de ? "_de" : "_en")];
+}
+form.addEventListener('submit', async (e) => {
+  e.preventDefault();
+  const data = new FormData(form);
+  if (data.get('website')) { return; }
+  if (!document.getElementById('consent').checked){ statusEl.textContent = t('consent'); return; }
+  if (document.getElementById('copyme').checked){ data.append('_cc', data.get('email')); }
+  if (FORMSPREE_ENDPOINT){
+    try{
+      const res = await fetch(FORMSPREE_ENDPOINT, { method:'POST', body:data, headers:{'Accept':'application/json'} });
+      statusEl.textContent = res.ok ? t('sent') : t('fail');
+      if (res.ok) form.reset();
+    }catch(err){
+      statusEl.textContent = t('net');
+    }
+  } else {
+    const name = data.get('name'); const email = data.get('email'); const msg = data.get('message');
+    const de = document.documentElement.getAttribute('data-ui-lang')==='de';
+    const subject = encodeURIComponent(de ? "Website-Kontakt von " + name : "Website contact from " + name);
+    const body = encodeURIComponent("From: " + name + " <" + email + ">" + "\n\n" + msg);
+    window.location.href = "mailto:info@renee-michele.com?subject=" + subject + "&body=" + body;
+  }
+});
+</script>
+
+</body></html>
