@@ -26,11 +26,13 @@
   <meta name="robots" content="index, follow">
 
 <link rel="stylesheet" href="./assets/css/style.css">
+<link rel="stylesheet" href="./assets/css/renee-player.css">
 </head>
 <body>
 <nav><div class="wrap">
   <div class="brand">Renée Michele</div>
   <div class="links">
+    <a href="#listen">Listen</a>
     <a href="#music">Music</a>
     <a href="#videos">Videos</a>
     <a href="#shop">Shop</a>
@@ -74,6 +76,105 @@
 
   </div>
 </section>
+
+<!-- Renee Michele: 10 SONG / 45 SECOND PIANO PREVIEW PLAYER -->
+<section id="listen" class="rnp-section" aria-labelledby="rnp-heading">
+  <div class="rnp-wrap" id="renee-player">
+    <div class="rnp-sectionhead">
+      <p class="rnp-overline">RENÉE MICHELE · ORIGINAL SOLO PIANO</p>
+      <h2 id="rnp-heading"><span data-lang="en">Listen &amp; Discover</span><span data-lang="de">Anhören &amp; Entdecken</span></h2>
+      <p class="rnp-intro"><span data-lang="en">Ten melodies. Ten little moments of beauty. Explore 45-second previews from Renée’s piano collection.</span><span data-lang="de">Zehn Melodien. Zehn kleine Momente voller Schönheit. Entdecke 45-Sekunden-Hörproben aus Renées Klaviermusik.</span></p>
+    </div>
+    <div class="rnp-panel">
+      <div class="rnp-nowplaying">
+        <div class="rnp-art" aria-hidden="true"><span class="rnp-art-key">♪</span><span class="rnp-art-caption">SOLO PIANO</span></div>
+        <div class="rnp-current">
+          <p class="rnp-caption"><span data-lang="en">NOW PLAYING · 45-SECOND PREVIEW</span><span data-lang="de">JETZT HÖREN · 45-SEKUNDEN-HÖRPROBE</span></p>
+          <h3 id="rnp-current-title">Silent Tears</h3>
+          <p class="rnp-byline">Renée Michele · Piano &amp; Composition</p>
+          <div class="rnp-controls">
+            <button class="rnp-transport" id="rnp-prev" type="button" aria-label="Previous song" title="Previous song">❮❮</button>
+            <button class="rnp-play" id="rnp-play" type="button" aria-label="Play preview" title="Play/Pause">▶</button>
+            <button class="rnp-transport" id="rnp-next" type="button" aria-label="Next song" title="Next song">❯❯</button>
+            <span id="rnp-status" class="rnp-status" aria-live="polite">Ready to play</span>
+          </div>
+          <div class="rnp-progress-wrap">
+            <span class="rnp-clock" id="rnp-elapsed">0:00</span>
+            <input class="rnp-progress" id="rnp-progress" type="range" min="0" max="45" step="0.1" value="0" aria-label="Seek within 45-second preview" />
+            <span class="rnp-clock">0:45</span>
+          </div>
+        </div>
+      </div>
+      <div class="rnp-list-head"><span data-lang="en">THE PIANO COLLECTION</span><span data-lang="de">DIE PIANO-KOLLEKTION</span><span>10 <span data-lang="en">TRACKS</span><span data-lang="de">TITEL</span></span></div>
+      <div class="rnp-list" role="group" aria-label="Ten solo piano audio previews">
+        <button class="rnp-track is-selected" type="button" data-src="assets/audio/previews/silent-tears.mp3" data-title="Silent Tears" data-number="1" aria-label="Play 45-second preview of Silent Tears" aria-pressed="true">
+          <span class="rnp-number">01</span>
+          <span class="rnp-title">Silent Tears</span>
+          <span class="rnp-duration">0:45</span>
+          <span class="rnp-trackicon" aria-hidden="true">▮▮</span>
+        </button>
+        <button class="rnp-track" type="button" data-src="assets/audio/previews/the-soul-of-the-wind.mp3" data-title="The Soul of the Wind" data-number="2" aria-label="Play 45-second preview of The Soul of the Wind" aria-pressed="false">
+          <span class="rnp-number">02</span>
+          <span class="rnp-title">The Soul of the Wind</span>
+          <span class="rnp-duration">0:45</span>
+          <span class="rnp-trackicon" aria-hidden="true">▶</span>
+        </button>
+        <button class="rnp-track" type="button" data-src="assets/audio/previews/angels-kiss.mp3" data-title="Angel&#x27;s Kiss" data-number="3" aria-label="Play 45-second preview of Angel&#x27;s Kiss" aria-pressed="false">
+          <span class="rnp-number">03</span>
+          <span class="rnp-title">Angel&#x27;s Kiss</span>
+          <span class="rnp-duration">0:45</span>
+          <span class="rnp-trackicon" aria-hidden="true">▶</span>
+        </button>
+        <button class="rnp-track" type="button" data-src="assets/audio/previews/follow-your-heart.mp3" data-title="Follow Your Heart" data-number="4" aria-label="Play 45-second preview of Follow Your Heart" aria-pressed="false">
+          <span class="rnp-number">04</span>
+          <span class="rnp-title">Follow Your Heart</span>
+          <span class="rnp-duration">0:45</span>
+          <span class="rnp-trackicon" aria-hidden="true">▶</span>
+        </button>
+        <button class="rnp-track" type="button" data-src="assets/audio/previews/grace.mp3" data-title="Grace" data-number="5" aria-label="Play 45-second preview of Grace" aria-pressed="false">
+          <span class="rnp-number">05</span>
+          <span class="rnp-title">Grace</span>
+          <span class="rnp-duration">0:45</span>
+          <span class="rnp-trackicon" aria-hidden="true">▶</span>
+        </button>
+        <button class="rnp-track" type="button" data-src="assets/audio/previews/reunion.mp3" data-title="Reunion" data-number="6" aria-label="Play 45-second preview of Reunion" aria-pressed="false">
+          <span class="rnp-number">06</span>
+          <span class="rnp-title">Reunion</span>
+          <span class="rnp-duration">0:45</span>
+          <span class="rnp-trackicon" aria-hidden="true">▶</span>
+        </button>
+        <button class="rnp-track" type="button" data-src="assets/audio/previews/first-promise.mp3" data-title="First Promise" data-number="7" aria-label="Play 45-second preview of First Promise" aria-pressed="false">
+          <span class="rnp-number">07</span>
+          <span class="rnp-title">First Promise</span>
+          <span class="rnp-duration">0:45</span>
+          <span class="rnp-trackicon" aria-hidden="true">▶</span>
+        </button>
+        <button class="rnp-track" type="button" data-src="assets/audio/previews/believe.mp3" data-title="Believe" data-number="8" aria-label="Play 45-second preview of Believe" aria-pressed="false">
+          <span class="rnp-number">08</span>
+          <span class="rnp-title">Believe</span>
+          <span class="rnp-duration">0:45</span>
+          <span class="rnp-trackicon" aria-hidden="true">▶</span>
+        </button>
+        <button class="rnp-track" type="button" data-src="assets/audio/previews/communion.mp3" data-title="Communion" data-number="9" aria-label="Play 45-second preview of Communion" aria-pressed="false">
+          <span class="rnp-number">09</span>
+          <span class="rnp-title">Communion</span>
+          <span class="rnp-duration">0:45</span>
+          <span class="rnp-trackicon" aria-hidden="true">▶</span>
+        </button>
+        <button class="rnp-track" type="button" data-src="assets/audio/previews/tabula-rasa.mp3" data-title="Tabula Rasa" data-number="10" aria-label="Play 45-second preview of Tabula Rasa" aria-pressed="false">
+          <span class="rnp-number">10</span>
+          <span class="rnp-title">Tabula Rasa</span>
+          <span class="rnp-duration">0:45</span>
+          <span class="rnp-trackicon" aria-hidden="true">▶</span>
+        </button>
+      </div>
+    </div>
+    <p class="rnp-footnote"><span data-lang="en">Each preview ends after 45 seconds. Discover the complete albums and more music below.</span><span data-lang="de">Jede Hörprobe endet nach 45 Sekunden. Entdecke die vollständigen Alben und weitere Musik weiter unten.</span></p>
+    <a class="rnp-albums-link" href="#music"><span data-lang="en">Explore all albums →</span><span data-lang="de">Alle Alben entdecken →</span></a>
+    <audio id="rnp-audio" preload="none"></audio>
+  </div>
+</section>
+<!-- End Renee Michele music player -->
 
 <section id="music" class="section"><div class="wrap">
   <h2><span data-lang="en">Music</span><span data-lang="de">Musik</span></h2>
@@ -525,4 +626,5 @@ form.addEventListener('submit', async (e) => {
 });
 </script>
 
+<script src="./assets/js/renee-player.js" defer></script>
 </body></html>
