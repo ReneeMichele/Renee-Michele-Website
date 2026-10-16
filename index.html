@@ -500,19 +500,47 @@
     </div>
   </div>
 </div></section>
-<section id="about" class="section"><div class="wrap">
-  <h2><span data-lang="en">About</span><span data-lang="de">Über</span></h2>
-  <img class="about-photo" src="./assets/images/renee_about.jpg" alt="Renee' Michele at the piano">
-  <div class="about-text" data-lang="en">
-    <p>Renee' Michele is a pianist and composer from Oregon whose music reflects beauty, grace, and emotional depth. Her compositions combine classical elegance with cinematic warmth — inviting listeners into a space of reflection and peace.</p>
-    <p>Over seven albums, Renée has created a body of work that resonates worldwide, with features on Pandora, Apple Music, SiriusXM, Soundscapes, and Enlightened Piano Radio.</p>
-    <p>She is the recipient of three <strong>Global Music Awards</strong> and collaborates with <strong>Will Ackerman</strong>, <strong>Michael Hoppe</strong>, and <strong>Thomas Lehmann</strong>.</p>
+<section id="about" class="section renee-about"><div class="wrap">
+  <style>
+    #about.renee-about{padding-top:72px;padding-bottom:92px;background:radial-gradient(ellipse at 25% 10%,#29231c 0%,#101010 55%,#0b0b0b 100%);color:#f4eee5}
+    #about .about-eyebrow{color:#d7b981;font-size:.77rem;text-transform:uppercase;letter-spacing:.2em;font-weight:700;margin-bottom:12px}
+    #about .about-heading{font-family:Georgia,'Times New Roman',serif;font-size:clamp(2.4rem,5vw,4.4rem);font-weight:400;line-height:1.12;margin:0 0 24px}
+    #about .about-intro{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);align-items:center;gap:clamp(24px,5vw,72px);padding-top:18px}
+    #about .about-portrait{width:100%;max-height:660px;aspect-ratio:4/5;object-fit:cover;object-position:50% 42%;border-radius:16px;box-shadow:0 25px 75px #0009;border:1px solid #d7b98145;display:block}
+    #about .about-copy{font-size:1.05rem;line-height:1.82;color:#ddd5cc}
+    #about .about-copy p{margin:0 0 20px}
+    #about .about-copy strong{color:#f5e1b9}
+    #about .about-studio{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:clamp(24px,5vw,66px);align-items:center;margin-top:82px;padding-top:50px;border-top:1px solid #d7b98140}
+    #about .about-studio-photo{display:block;width:100%;max-width:570px;height:auto;max-height:440px;object-fit:contain;border:1px solid #d7b9814b;border-radius:15px;box-shadow:0 18px 50px #0008}
+    #about .about-studio-title{font-family:Georgia,'Times New Roman',serif;font-weight:400;font-size:clamp(1.8rem,3vw,2.8rem);line-height:1.2;color:#fff3e1}
+    #about .about-studio-copy{line-height:1.8;color:#d4cdc3;max-width:420px}
+    #about .about-studio-kicker{font-size:.8rem;color:#d7b981;letter-spacing:.15em;text-transform:uppercase}
+    @media(max-width:760px){#about.renee-about{padding-top:52px}#about .about-intro,#about .about-studio{grid-template-columns:1fr;gap:25px}#about .about-portrait{max-height:500px;aspect-ratio:4/4.4}#about .about-studio{margin-top:44px;padding-top:35px}#about .about-studio-photo{max-height:none}}
+  </style>
+  <div class="about-eyebrow">Renee' Michele · Solo Piano</div>
+  <h2 class="about-heading"><span data-lang="en">Meet Renee' Michele</span><span data-lang="de">Renee' Michele kennenlernen</span></h2>
+  <div class="about-intro">
+    <img class="about-portrait" src="./assets/images/renee-about-garden.jpg" alt="Portrait of pianist and composer Renee' Michele in a sunlit garden" loading="lazy" width="1100" height="826">
+    <div class="about-copy">
+      <div data-lang="en">
+        <p>Renee' Michele is a pianist and composer from Oregon whose music reflects beauty, grace, and emotional depth. Her compositions combine classical elegance with cinematic warmth — inviting listeners into a space of reflection and peace.</p>
+        <p>Over seven albums, Renee' has created a body of work that resonates worldwide, with features on Pandora, Apple Music, SiriusXM, Soundscapes, and Enlightened Piano Radio.</p>
+        <p>She is the recipient of three <strong>Global Music Awards</strong> and collaborates with <strong>Will Ackerman</strong>, <strong>Michael Hoppé</strong>, and <strong>Thomas Lehmann</strong>.</p>
+      </div>
+      <div data-lang="de">
+        <p>Renee' Michele ist Pianistin und Komponistin aus Oregon. Ihre Musik vereint Schönheit, Anmut und emotionale Tiefe mit filmischer Wärme und lädt zur inneren Ruhe ein.</p>
+        <p>Mit sieben Alben erreicht sie Hörer weltweit – unter anderem auf Pandora, Apple Music, SiriusXM, Soundscapes und Enlightened Piano Radio.</p>
+        <p>Sie erhielt drei <strong>Global Music Awards</strong> und arbeitet mit <strong>Will Ackerman</strong>, <strong>Michael Hoppé</strong> und <strong>Thomas Lehmann</strong> zusammen.</p>
+      </div>
+    </div>
   </div>
-  <div class="sep"></div>
-  <div class="about-text" data-lang="de">
-    <p>Renee' Michele ist Pianistin und Komponistin aus Oregon. Ihre Musik vereint Schönheit, Anmut und emotionale Tiefe mit filmischer Wärme und lädt zur inneren Ruhe ein.</p>
-    <p>Mit sieben Alben erreicht sie Hörer weltweit – u. a. auf Pandora, Apple Music, SiriusXM, Soundscapes und Enlightened Piano Radio.</p>
-    <p>Sie erhielt drei <strong>Global Music Awards</strong> und arbeitet mit <strong>Will Ackerman</strong>, <strong>Michael Hoppe</strong> und <strong>Thomas Lehmann</strong> zusammen.</p>
+  <div class="about-studio">
+    <div>
+      <p class="about-studio-kicker"><span data-lang="en">Behind the music</span><span data-lang="de">Hinter der Musik</span></p>
+      <h3 class="about-studio-title"><span data-lang="en">In the Recording Studio</span><span data-lang="de">Im Tonstudio</span></h3>
+      <p class="about-studio-copy"><span data-lang="en">A genuine moment at the grand piano: a glimpse into the artistry, concentration, and care behind Renee's recordings.</span><span data-lang="de">Ein echter Moment am Flügel: ein Einblick in die Kunst, Konzentration und Hingabe hinter Renees Aufnahmen.</span></p>
+    </div>
+    <img class="about-studio-photo" src="./assets/images/renee_about.jpg" alt="Renee' Michele playing the grand piano during a recording session" loading="lazy">
   </div>
 </div></section>
 
